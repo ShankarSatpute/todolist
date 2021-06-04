@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+    color: rebeccapurple;
+    text-align: center;
+    position: relative;
+    top: 10%;
+}
+
+.outer_text_div{
+    width: 100vw;
+    height: 100vh;
+    background-color:#cc99ff;
+    position: relative;
+}
+input{
+    width: 100%;
+    background-color:salmon;
+    font-weight: 4px;
+    color: white;
+    outline: none;
+    border: none;
+    height: 1.9rem;
+}
+
+input::placeholder{
+    color: rgb(228, 228, 228);
+}
+
+.inner_text_div{
+    display: flex;
+    width: 40%;
+    position: absolute;
+    top:30%;
+    left:30%
+}
+
+
+button{
+    color:salmon;
+    width: 30px;
+    background-color: springgreen;
+}
+
+.todo_div{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 30%;
+}
+
+.todo_list{
+    min-width: 40%;
+    list-style: none;
+}
+
+.div_items{
+    margin: 0.5rem;
+    background: white;
+    color: black;
+    font-size: 1.0rem;
+    display: flex;
+    justify-content: space-between;
+    transition: all 0.5 ease;
+}
+
+.div_items li{
+    flex: 1;
+}
+
+.trash_buttons{
+    background: salmon;
+    color: white;
+}
+
+.fa-trash,
+.fa-check{
+    pointer-events: none;
+}
+
+.completed{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+.fall{
+    opacity: 0;
+}
+
+.section{
+    position: relative;
+    top: 20%;
+    left: 72%;
+}
+select{
+    outline: none;
+    background-color: rgb(215, 226, 207);  
+}
